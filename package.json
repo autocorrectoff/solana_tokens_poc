@@ -1,0 +1,31 @@
+{
+  "name": "solana_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "watch": "nodemon app.ts",
+    "build": "rm -rf ./dist && ./node_modules/typescript/bin/tsc -b --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^0.6.0",
+    "@metaplex-foundation/mpl-token-metadata": "^2.1.0",
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/spl-token": "^0.2.0",
+    "@solana/spl-token-registry": "^0.2.2816",
+    "@solana/web3.js": "^1.36.0",
+    "bip39": "^3.0.4",
+    "borsh": "^0.7.0",
+    "bs58": "^5.0.0",
+    "ed25519-hd-key": "^1.2.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
+  }
+}
